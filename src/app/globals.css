@@ -1,33 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.active {
+    @apply bg-slate-400
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.bg-primary-active {
+    background-color: #334236;
+}
+
+.bg-blur {
+    background-color: rgba(51, 66, 54, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+.hero-container {
+    @apply pt-40 pb-20;
+}  
+
+.hero-title{
+    @apply font-fairplay text-[80px] text-white text-center font-bold;
+}
+
+.hero-subtitle {
+    @apply text-center text-white font-poppins mt-10 text-lg w-1/2 mx-auto;
+}
+@keyframes color-move {
+    0% { background-position: 0 0; }
+    40% { background-position: 50% 0; } 
+    60% { background-position: 100% 0}
+    80% { background-position: 50% 0}
+    100% { background-position: 0 0}
   }
+  
+.bganim {
+    background: linear-gradient(60deg, rgb(8, 112, 14,30), rgba(40,59,49, 30));
+    animation: color-move 10s linear infinite;
+    background-size: 300% 100%;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+  
+  

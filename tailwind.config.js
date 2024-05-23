@@ -6,13 +6,23 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+      fairplay: ["Playfair Display", "serif"],
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: "#233831",
+        secondary: "#f8f8f8",
+        tertiary: "#f8f8f8",
+        quaternary: "#f8f8f8",
     },
   },
+},
   plugins: [],
 };
