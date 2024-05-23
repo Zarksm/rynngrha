@@ -17,16 +17,20 @@
     backdrop-filter: blur(10px);
 }
 
+.container{
+    @apply px-20
+}
+
 .hero-container {
-    @apply pt-40 pb-20;
+    @apply pt-36 md:pt-48 pb-20;
 }  
 
 .hero-title{
-    @apply font-fairplay text-[80px] text-white text-center font-bold;
+    @apply font-fairplay text-[46px] md:text-[80px] text-greenl text-center font-bold px-10 md:px-0;
 }
 
 .hero-subtitle {
-    @apply text-center text-white font-poppins mt-10 text-lg w-1/2 mx-auto;
+    @apply text-center text-greenls font-poppins mt-10 text-xs md:text-lg md:w-1/2 md:mx-auto px-10 md:px-0;
 }
 @keyframes color-move {
     0% { background-position: 0 0; }

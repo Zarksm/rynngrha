@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import Card from "./works/Card";
+import Project from "./work/Project";
 
-export { Navbar, Hero, Card };
+export { Navbar, Hero, Project };
