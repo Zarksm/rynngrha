@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <section className="w-full h-auto bg-primary">
+      <section className="w-full h-auto md:h-screen bg-primary">
         <div className="hero-container">
           <h1 className="hero-title">Hi. I{"'"}m Riyan</h1>
           <p className="hero-subtitle">

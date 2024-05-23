@@ -14,15 +14,15 @@
 
 .bg-blur {
     background-color: rgba(51, 66, 54, 0.6);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
 }
 
 .container{
-    @apply px-20
+    @apply px-20;
 }
 
 .hero-container {
-    @apply pt-36 md:pt-48 pb-20;
+    @apply pt-36 md:pt-56 pb-20;
 }  
 
 .hero-title{

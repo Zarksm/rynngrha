@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="w-full fixed flex justify-center p-5 bg-transparent">
+      <header className="w-full fixed flex justify-center p-5 bg-transparent z-50">
         <nav
           className={`flex gap-10 py-5 px-10 rounded-full transition-all duration-300 ${
             isScrolled ? "bg-blur" : "bg-transparent"
@@ -45,7 +45,7 @@ const Navbar = () => {
               href={link.href}
               className={` ${
                 pathname === link.href
-                  ? "text-sky-400 font-poppins"
+                  ? "text-greenl font-poppins"
                   : "text-white hover:text-slate-300 font-poppins"
               } `}
             >
