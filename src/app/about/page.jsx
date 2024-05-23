@@ -14,7 +14,7 @@ const AboutPage = () => {
             {/* left section */}
             <div className="md:w-2/5 flex justify-center ">
               <h1 className="text-greenls text-xl md:text-3xl font-sans text-center">
-                " I love to create something simple and clean "
+                {'"'} I love to create something simple and clean {'"'}
               </h1>
             </div>
             {/* right section */}
