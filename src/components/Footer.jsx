@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="w-full h-auto">
-        <div className="pt-5 pb-10 md:pb-20 flex flex-col-reverse md:flex-row  gap-14 md:gap-0 justify-between items-start md:items-end px-10 md:px-48 bg-primary font-poppins text-white">
+        <div className="pt-5 pb-10 md:pb-20 flex flex-col-reverse md:flex-row  gap-14 md:gap-0 justify-between items-start md:items-end px-7 md:px-48 bg-primary font-sans text-white">
           <div className="flex-1 w-full">
             <h1 className="text-center md:text-left items-center">
               &copy; 2024 Riyan Nugraha.

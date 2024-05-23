@@ -1,4 +1,5 @@
 "use client";
+import { projects } from "@/lib/Constant";
 import Image from "next/image";
 import React, { useState } from "react";
 import { BsStars } from "react-icons/bs";
@@ -6,70 +7,19 @@ import { BsStars } from "react-icons/bs";
 const Project = () => {
   const [activeContent, setActiveContent] = useState(1);
 
-  const projects = [
-    {
-      id: 1,
-      title: "Fully Responsive Public Complaint Website",
-      content: [
-        {
-          id: 1,
-          title: "Fully Responsive Public Complaint Website",
-          tech: ["HTML", "CSS", "JS", "Tailwind CSS"],
-          img: "/Assets/images/project1.png",
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: "Online Course Website",
-      content: [
-        {
-          id: 1,
-          title: "Online Course Website",
-          tech: ["HTML", "CSS", "JS", "Tailwind CSS", "React JS"],
-          img: "/Assets/images/project1.png",
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Blog website",
-      content: [
-        {
-          id: 1,
-          title: "Blog website",
-          tech: ["HTML", "CSS", "JS", "Tailwind CSS"],
-          img: "/Assets/images/project1.png",
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "Portfolio",
-      content: [
-        {
-          id: 1,
-          title: "Portfolio",
-          tech: ["HTML", "CSS", "JS", "Tailwind CSS"],
-          img: "/Assets/images/project1.png",
-        },
-      ],
-    },
-  ];
-
   return (
     <div className="w-full h-auto bg-primary px-10 md:px-28 md:container pb-20">
       <div className="py-10">
         <h1 className="font-fairplay text-5xl text-greenls">Project</h1>
         <div className="mt-10">
-          <div className="flex flex-col md:flex-row justify-between gap-10 font-poppins">
+          <div className="flex flex-col md:flex-row justify-between gap-10 font-sans">
             {/* left | buttons */}
-            <div className="flex flex-col gap-5 md:py-10 max-h-16 overflow-auto md:max-h-max">
+            <div className="flex flex-col gap-5 md:py-10 max-h-16 overflow-auto md:max-h-max md:min-w-80">
               {projects.map((project) => (
                 <div
                   key={project.id}
                   onClick={() => setActiveContent(project.id)}
-                  className={`cursor-pointer font-poppins flex gap-3 items-center ${
+                  className={`cursor-pointer font-sans flex gap-3 items-center ${
                     activeContent === project.id
                       ? "text-greenl"
                       : "text-white hover:text-greenl"

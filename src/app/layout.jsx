@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Footer, Navbar } from "@/components";
+import { GeistSans } from "geist/font/sans";
 
 export const metadata = {
   title: "Riyan Nugraha | Frontend Developer",
@@ -8,10 +9,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${GeistSans.variable}`}>
       <body>
-        <Navbar />
-        <div className="">{children}</div>
+        <div>
+          <Navbar />
+          <main>{children}</main>
+        </div>
         <Footer />
       </body>
     </html>

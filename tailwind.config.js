@@ -9,6 +9,7 @@ module.exports = {
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
       fairplay: ["Playfair Display", "serif"],
+      sans: ['var(--font-geist-sans)'],
     },
     extend: {
       backgroundImage: {

@@ -16,6 +16,9 @@ const Navbar = () => {
   ];
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setIsScrolled(true);
@@ -45,8 +48,8 @@ const Navbar = () => {
               href={link.href}
               className={` ${
                 pathname === link.href
-                  ? "text-greenl font-poppins"
-                  : "text-white hover:text-slate-300 font-poppins"
+                  ? "text-greenl font-sans"
+                  : "text-white hover:text-slate-300 font-sans"
               } `}
             >
               {link.label}
