@@ -22,7 +22,7 @@ const Footer = () => {
             <div>
               <h1 className="text-greenl font-bold">Contact</h1>
               <div className="pt-2 md:pt-4">
-                <p className="text-md cursor-pointer hover:text-greenls transition duration-300 ease-in-out">
+                <p className="text-md cursor-pointer hover:text-greenlsgi transition duration-300 ease-in-out">
                   Message
                 </p>
               </div>

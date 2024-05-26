@@ -8,9 +8,9 @@ export const Blogs = [
         image: "/Assets/icons/nextjs.png",
         description: (
             <>
-                <p className="mb-4 font-thin">NextJS 13 introduces several new features that make building React applications even more efficient and enjoyable. In this blog, we'll explore how to get started with NextJS 13 and highlight some of the key improvements and new capabilities.</p>
+                <p className="mb-4 font-thin">NextJS 13 introduces several new features that make building React applications even more efficient and enjoyable. In this blog, we{"'"}ll explore how to get started with NextJS 13 and highlight some of the key improvements and new capabilities.</p>
                 <h2>Getting Started with NextJS 13</h2>
-                <p>NextJS 13 builds on the strong foundation of its predecessors, offering a streamlined developer experience and powerful new tools. To get started with NextJS 13, you’ll need to set up a new project. Here’s a quick guide to help you get started:</p>
+                <p>NextJS 13 builds on the strong foundation of its predecessors, offering a streamlined developer experience and powerful new tools. To get started with NextJS 13, you{"'"}ll need to set up a new project. Here{"'"}s a quick guide to help you get started:</p>
                 <ol>
                     <li><strong>Install Node.js and npm</strong>: Ensure you have Node.js installed on your machine. You can download it from the <a href="https://nodejs.org/">official website</a>.</li>
                     <li><strong>Create a New NextJS Project</strong>: Use the command below to create a new NextJS application.
@@ -54,7 +54,7 @@ export const Blogs = [
     {
         id: 2,
         title: "Understanding the New Features in NextJS 13",
-        subtitle: "What's New in NextJS 13",
+        subtitle: "Whats New in NextJS 13",
         image: "/Assets/icons/nextjs.png",
         description: (
             <>
@@ -62,7 +62,7 @@ export const Blogs = [
                 <h3>New File-System Routing</h3>
                 <p>One of the most significant updates in NextJS 13 is the enhanced file-system routing. This feature allows you to create routes by simply adding files to the <code>pages</code> directory, making the process more straightforward and reducing the need for extensive configuration.</p>
                 <h3>Improved Data Fetching Methods</h3>
-                <p>NextJS 13 introduces improved data fetching methods that cater to both static and dynamic sites. With functions like <code>getStaticProps</code> and <code>getServerSideProps</code>, you can fetch data at build time or request time, respectively, providing greater flexibility in how you manage your application's data.</p>
+                <p>NextJS 13 introduces improved data fetching methods that cater to both static and dynamic sites. With functions like <code>getStaticProps</code> and <code>getServerSideProps</code>, you can fetch data at build time or request time, respectively, providing greater flexibility in how you manage your application{"'"}s data.</p>
                 <h3>New and Enhanced Components</h3>
                 <p>NextJS 13 includes several new and enhanced components designed to optimize performance and streamline development:</p>
                 <ul>
@@ -79,7 +79,7 @@ export const Blogs = [
                     />
                 </div>
                 <h3>Conclusion</h3>
-                <p>NextJS 13 is a powerful update that brings many new features and improvements. From the enhanced file-system routing to improved data fetching and optimized components, it provides developers with the tools needed to build high-performance, modern web applications. Whether you're a seasoned NextJS user or new to the framework, NextJS 13 offers a robust and efficient way to create amazing web experiences.</p>
+                <p>NextJS 13 is a powerful update that brings many new features and improvements. From the enhanced file-system routing to improved data fetching and optimized components, it provides developers with the tools needed to build high-performance, modern web applications. Whether you{"'"}re a seasoned NextJS user or new to the framework, NextJS 13 offers a robust and efficient way to create amazing web experiences.</p>
             </>
         ),
     },
