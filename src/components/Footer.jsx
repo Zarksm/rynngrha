@@ -10,7 +10,7 @@ const Footer = () => {
               &copy; 2024 Riyan Nugraha.
             </h1>
           </div>
-          <div className="flex flex-col md:flex-row gap-10 md:gap-20">
+          <div className="flex gap-10 md:gap-20 px-3">
             <div>
               <h1 className="text-greenl font-bold">Social Media</h1>
               <div className="flex gap-5 pt-3 md:pt-5">
@@ -22,7 +22,9 @@ const Footer = () => {
             <div>
               <h1 className="text-greenl font-bold">Contact</h1>
               <div className="pt-2 md:pt-4">
-                <p className="text-md">Message</p>
+                <p className="text-md cursor-pointer hover:text-greenls transition duration-300 ease-in-out">
+                  Message
+                </p>
               </div>
             </div>
           </div>

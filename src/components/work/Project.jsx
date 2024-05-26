@@ -8,8 +8,8 @@ const Project = () => {
   const [activeContent, setActiveContent] = useState(1);
 
   return (
-    <div className="w-full h-auto bg-primary px-10 md:px-28 md:container pb-20">
-      <div className="py-10">
+    <div className="w-full h-auto bg-primary px-10 md:px-36 pb-20">
+      <div className="pb-10 md:container">
         <h1 className="font-fairplay text-5xl text-greenls">Project</h1>
         <div className="mt-10">
           <div className="flex flex-col md:flex-row justify-between gap-10 font-sans">
@@ -33,7 +33,7 @@ const Project = () => {
               ))}
             </div>
             {/* right | content */}
-            <div className="flex-1 py-5 md:p-5 border-t border-b justify-center border-greenl md:border-none">
+            <div className="w-full  flex-1 py-5 md:p-5 border-t border-b justify-center border-greenl md:border-none ">
               {projects.map((project) => (
                 <div
                   key={project.id}

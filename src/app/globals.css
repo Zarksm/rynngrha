@@ -22,11 +22,11 @@
 }
 
 .hero-container {
-    @apply pt-36 md:pt-56 pb-20;
+    @apply pt-40 md:pt-56 pb-20;
 }  
 
 .hero-title{
-    @apply font-fairplay text-[46px] md:text-[80px] text-greenl text-center font-bold px-10 md:px-0;
+    @apply font-fairplay text-[46px] md:text-[80px] text-greenl text-center font-bold px-10 md:px-0 mb-5 md:mb-0;
 }
 
 .hero-subtitle {
@@ -46,4 +46,19 @@
     background-size: 300% 100%;
 }
   
+.revAnim{
+    animation: rev 1s forwards;
+}
+
+.revAnim2{
+    animation: rev 1s forwards;
+    animation-delay: .5s;
+}
+
+@keyframes rev {
+    0% { opacity: 0;
+    margin-top: -30px; }
+    100% { opacity: 1;
+    margin-top: 0px; }
+}
   
