@@ -8,7 +8,7 @@ export const Blogs = [
         image: "https://source.unsplash.com/random/800x450",
         description: (
             <>
-                <p className="mb-4 font-thin">React Hooks have revolutionized the way we manage state and side effects in React applications. In this blog post, we'll explore best practices for using React Hooks to optimize your components.</p>
+                <p className="mb-4 font-thin">React Hooks have revolutionized the way we manage state and side effects in React applications. In this blog post, we{"'"}ll explore best practices for using React Hooks to optimize your components.</p>
                 <h2>Understanding React Hooks</h2>
                 <p>React Hooks provide a more direct API to the React concepts we already know, such as state, context, and lifecycle methods. To get started with React Hooks effectively:</p>
                 <ol>
@@ -39,15 +39,15 @@ export const Blogs = [
     {
         id: 2,
         title: "Mastering Tailwind CSS: Advanced Techniques",
-        subtitle: "Unlocking Tailwind's Full Potential",
+        subtitle: "Unlocking Tailwinds Full Potential",
         image: "https://source.unsplash.com/random/800x450",
         description: (
             <>
                 <p>Tailwind CSS offers a utility-first approach to styling web applications, enabling rapid development and consistent design. This blog explores advanced techniques to master Tailwind CSS effectively.</p>
                 <h3>Customizing Tailwind Configuration</h3>
-                <p>One of Tailwind's strengths is its customizable configuration. By modifying the tailwind.config.js file, you can:</p>
+                <p>One of Tailwind{"'"}s strengths is its customizable configuration. By modifying the tailwind.config.js file, you can:</p>
                 <ul>
-                    <li><strong>Add Custom Colors and Variants</strong>: Extend Tailwind's default color palette and create custom variants for buttons, cards, and other UI elements.</li>
+                    <li><strong>Add Custom Colors and Variants</strong>: Extend Tailwind{"'"}s default color palette and create custom variants for buttons, cards, and other UI elements.</li>
                     <li><strong>Optimize PurgeCSS Settings</strong>: Configure PurgeCSS to remove unused styles in production builds, reducing CSS file size and improving load times.</li>
                 </ul>
                 <h3>Optimizing Performance with JIT Mode</h3>
