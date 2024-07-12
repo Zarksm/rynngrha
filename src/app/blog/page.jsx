@@ -20,7 +20,7 @@ const Blog = () => {
           {Blogs.map((blog) => (
             <div
               key={blog.id}
-              className="w-full bg-greenls border border-greenls rounded-md overflow-hidden"
+              className="w-full border border-greenls rounded-md overflow-hidden"
             >
               <Link href={`/blog/${blog.id}`}>
                 <div className="flex flex-col-reverse md:flex-row justify-between gap-y-5 md:gap-y-0 md:items-center p-4 md:p-10 hover:bg-primary transition duration-300 ease-in-out">

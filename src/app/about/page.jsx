@@ -27,7 +27,7 @@ const AboutPage = () => {
                 development, crafting user interfaces and experiences for web
                 applications. I have a solid foundation in HTML, CSS, and
                 JavaScript, along with experience working with modern frontend
-                frameworks like React, NextJS and Laravel.
+                frameworks like NextJS and Backend framework like Laravel.
               </p>
               <p className="font-sans text-white font-thin md:font-normal revAnim2 opacity-0">
                 I{"'"}m actively expanding my skills by diving deeper into

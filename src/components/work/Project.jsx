@@ -44,6 +44,17 @@ const Project = () => {
                       <h2 className="text-2xl md:text-3xl font-bold text-greenl">
                         {contentItem.title}
                       </h2>
+                      <p className="text-greenls">{contentItem.subTitle}</p>
+
+                      <div className="w-full h-auto flex">
+                        <Image
+                          src={contentItem.img}
+                          alt={contentItem.title}
+                          className="w-full h-auto max-w-lg"
+                          width={800}
+                          height={450}
+                        />
+                      </div>
                       <div className="flex flex-wrap gap-y-2">
                         {contentItem.tech.map((tech) => (
                           <div
@@ -54,14 +65,14 @@ const Project = () => {
                           </div>
                         ))}
                       </div>
-                      <div className="w-full h-auto flex">
-                        <Image
-                          src={contentItem.img}
-                          alt={contentItem.title}
-                          className="w-full h-auto max-w-lg"
-                          width={800}
-                          height={450}
-                        />
+                      <div>
+                        <a
+                          href={contentItem.link}
+                          className="p-2 bg-greenls rounded-md text-white text-sm"
+                          target="_blank"
+                        >
+                          View Website
+                        </a>
                       </div>
                     </div>
                   ))}
