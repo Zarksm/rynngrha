@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { Blogs } from "@/lib/Blogs";
 import Image from "next/image";
+import Link from "next/link";
 
 // This function is called at build time to generate static parameters
 export async function generateStaticParams() {
@@ -19,10 +20,16 @@ const BlogDetail = ({ params }) => {
   }
 
   return (
-    <div className="w-full h-auto bg-primary px-10 md:px-28 pb-20">
+    <div className="w-full h-auto bg-primary px-10 md:px-28 pb-20 pt-32">
+      <div className="container">
+        <p className="text-blue-600">
+          <Link href="/blog">Blog</Link>{" "}
+          <span className="text-white">/ {blog.title}</span>
+        </p>
+      </div>
       <div className="py-10 container">
-        <h1 className="font-fairplay text-5xl text-greenls">{blog.title}</h1>
-        <h2 className="text-2xl text-greenls mb-4">{blog.subtitle}</h2>
+        <h1 className="font-fairplay text-5xl text-white">{blog.title}</h1>
+        <h2 className="text-lg text-slate-500 mb-4 mt-4">{blog.subtitle}</h2>
         <div className="w-full h-auto flex flex-col justify-center my-4">
           {blog.description}
         </div>
