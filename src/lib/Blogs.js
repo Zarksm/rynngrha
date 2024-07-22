@@ -7,6 +7,7 @@ export const Blogs = [
         title: "Deep Dive into React Hooks: Best Practices",
         subtitle: "Optimizing Your React Components",
         image: "/Assets/icons/react.png",
+        uploaded: "March 1, 2024",
         description: (
             <>
                 <CardBlogv1 />
@@ -18,6 +19,7 @@ export const Blogs = [
         title: "Mastering Tailwind CSS: Advanced Techniques",
         subtitle: "Unlocking Tailwinds Full Potential",
         image: "/Assets/icons/tailwind.png",
+        uploaded: "March 15, 2024",
         description: (
             <>
                 <p>Tailwind CSS offers a utility-first approach to styling web applications, enabling rapid development and consistent design. This blog explores advanced techniques to master Tailwind CSS effectively.</p>

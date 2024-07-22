@@ -21,15 +21,20 @@ const BlogDetail = ({ params }) => {
 
   return (
     <div className="w-full h-auto bg-primary px-10 md:px-28 pb-20 pt-32">
-      <div className="container">
+      <div className="md:container border-b border-slate-400 pb-5">
         <p className="text-blue-600">
           <Link href="/blog">Blog</Link>{" "}
           <span className="text-white">/ {blog.title}</span>
         </p>
       </div>
-      <div className="py-10 container">
-        <h1 className="font-fairplay text-5xl text-white">{blog.title}</h1>
-        <h2 className="text-lg text-slate-500 mb-4 mt-4">{blog.subtitle}</h2>
+      <div className="py-10 md:container">
+        <h1 className="font-fairplay text-xl md:text-5xl text-white">
+          {blog.title}
+        </h1>
+        <h2 className="text-md md:text-lg text-slate-500 mb-4 mt-4">
+          {blog.subtitle}
+        </h2>
+        <p className="text-slate-500 text-sm">{blog.uploaded}</p>
         <div className="w-full h-auto flex flex-col justify-center my-4">
           {blog.description}
         </div>
