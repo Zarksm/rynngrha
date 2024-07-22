@@ -11,6 +11,9 @@ export const Blogs = [
         description: (
             <>
                 <CardBlogv1 />
+                <div className="header">
+
+                </div>
             </>
         ),
     },

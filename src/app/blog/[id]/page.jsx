@@ -28,7 +28,7 @@ const BlogDetail = ({ params }) => {
         </p>
       </div>
       <div className="py-10 md:container">
-        <h1 className="font-fairplay text-xl md:text-5xl text-white">
+        <h1 className="font-fairplay text-2xl md:text-5xl text-white">
           {blog.title}
         </h1>
         <h2 className="text-md md:text-lg text-slate-500 mb-4 mt-4">
