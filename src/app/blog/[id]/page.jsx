@@ -20,7 +20,7 @@ const BlogDetail = ({ params }) => {
   }
 
   return (
-    <div className="w-full h-auto bg-primary px-10 md:px-28 pb-20 pt-32">
+    <div className="w-full h-auto bg-primary px-6 md:px-28 pb-20 pt-32">
       <div className="md:container border-b border-slate-400 pb-5">
         <p className="text-blue-600">
           <Link href="/blog">Blog</Link>{" "}
